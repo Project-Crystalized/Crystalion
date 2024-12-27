@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "crystalion",
+  "version": "${version}",
+  "name": "Crystalion",
+  "description": "All-in-one utility mod for Project Crystalized",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/crystalion/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cc.crystalized.crystalion.client.CrystalionClient"
+    ],
+    "main": [
+      "cc.crystalized.crystalion.Crystalion"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
